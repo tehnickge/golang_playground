@@ -29,9 +29,7 @@ func (n TestStruct) Muliply() float64 {
 }
 
 func MakesInterfaces() {
-	var inter TestInt
-	struc := TestStruct{87,42}
-	inter = struc 
+	var inter TestInt = &TestStruct{ 44, 23}
 	fmt.Println(inter.Division(),inter.Muliply(),inter.Sum(),inter.Substract())
 
 

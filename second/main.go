@@ -7,6 +7,6 @@ func main() {
 	// fmt.Println(s,su,m,d)
 	// TestPointer()
 	// TestStruckture()
-	// MakesInterfaces()
+	//MakesInterfaces()
 	TestThirds()
 }
